@@ -22,8 +22,8 @@ public class RelatorioResource {
 
     @PUT
     public void updateConfig(Config newConfig){
-        // this.config = newConfig; 
-        config.setFormatoRelatorios(newConfig.getFormatoRelatorios());
-        config.setTipoGraficos(newConfig.getTipoGraficos());
+        this.config = newConfig; 
+        // config.setFormatoRelatorios(newConfig.getFormatoRelatorios());
+        // config.setTipoGraficos(newConfig.getTipoGraficos());
     }
 }
